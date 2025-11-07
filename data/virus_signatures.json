@@ -1,0 +1,42 @@
+{
+  "signatures": [
+    {
+      "name": "Trojan.Generic",
+      "hash": "d41d8cd98f00b204e9800998ecf8427e",
+      "type": "trojan",
+      "severity": "high",
+      "description": "Generic trojan detection"
+    },
+    {
+      "name": "Worm.AutoRun",
+      "pattern": "autorun.inf",
+      "type": "worm",
+      "severity": "medium",
+      "description": "AutoRun worm detection"
+    },
+    {
+      "name": "Ransomware.Sample",
+      "extensions": [
+        ".encrypted",
+        ".locked",
+        ".crypto"
+      ],
+      "type": "ransomware",
+      "severity": "critical",
+      "description": "Ransomware file extension detection"
+    },
+    {
+      "name": "Script.Malicious",
+      "extensions": [
+        ".vbs",
+        ".js",
+        ".wsf"
+      ],
+      "type": "script",
+      "severity": "medium",
+      "description": "Potentially malicious script"
+    }
+  ],
+  "version": "1.0",
+  "last_updated": "2025-11-05"
+}

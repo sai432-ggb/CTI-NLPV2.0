@@ -1,0 +1,27 @@
+# Trusted Legitimate Domains
+# Add one domain per line
+
+# Your domains
+geethashishu.in
+www.geethashishu.in
+
+# Indian domains
+flipkart.com
+amazon.in
+paytm.com
+zomato.com
+swiggy.com
+makeMyTrip.com
+bookmyshow.com
+
+# Educational
+iitb.ac.in
+iitm.ac.in
+iisc.ac.in
+
+# Government
+gov.in
+nic.in
+india.gov.in
+
+# Add more as needed

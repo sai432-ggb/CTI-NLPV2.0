@@ -1,0 +1,4 @@
+ip_address,threat_type,severity,last_seen,country
+192.0.2.1,botnet,high,2024-01-15,Unknown
+198.51.100.1,malware,critical,2024-01-14,Unknown
+203.0.113.1,scanner,medium,2024-01-13,Unknown

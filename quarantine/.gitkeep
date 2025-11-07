@@ -1,0 +1,27 @@
+# Quarantine Folder
+
+This folder stores malicious files that have been isolated by the Device Scanner.
+
+## Purpose
+- Automatically quarantines detected threats
+- Keeps malicious files isolated from the system
+- Stores metadata about each quarantined file
+
+## Structure
+When files are quarantined, two files are created:
+1. `YYYYMMDD_HHMMSS_filename.ext` - The quarantined file
+2. `YYYYMMDD_HHMMSS_filename.ext.json` - Metadata about the threat
+
+## Safety
+- Files in this folder are isolated and cannot execute
+- Review files before permanent deletion
+- Old files are automatically cleaned after 30 days (configurable)
+
+## Important
+- Do NOT manually execute files in this folder
+- Use the API endpoints to manage quarantined files
+- Regularly review and clean old quarantine files
+
+---
+
+This .gitkeep file ensures the folder is tracked by Git even when empty.
