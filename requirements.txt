@@ -45,3 +45,7 @@ python-magic==0.4.27
 # Utilities
 colorama==0.4.6
 tqdm==4.66.1
+SQLAlchemy==2.0.23
+Flask-SQLAlchemy==3.1.1
+celery==5.3.4
+redis==5.0.1
